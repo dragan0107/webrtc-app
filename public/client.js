@@ -1,7 +1,7 @@
 const localVideo = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
 
-const signalingServer = new WebSocket('ws://localhost:3000');  // Connect to the WebSocket server
+const signalingServer = new WebSocket('ws://webrtc-app-myya.onrender.com');  // Connect to the WebSocket server
 let localStream;
 let peerConnection;
 
